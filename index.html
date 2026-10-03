@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek RG — Abhi's internet corner</title>
+  <meta name="description" content="Learning. Building things that solve real problems — hackathon builds, AI/ML projects, and everything I'm shipping." />
+
+  <!-- Supporting Sans & Monospace Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+  <!-- ================= TOP MASTHEAD / NAV ================= -->
+  <header class="masthead">
+    <div class="container masthead-inner">
+      <a href="#top" class="brand-logo">ABHISHEK</a>
+      
+      <nav class="nav-links">
+        <a href="#top">HOME</a>
+        <a href="#projects">PROJECTS</a>
+        <div class="search-pill">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span>Search all</span>
+        </div>
+        <a href="#say-hi" class="btn-hi-abhi">HI ABHI</a>
+      </nav>
+    </div>
+    <div class="rule-double"></div>
+  </header>
+
+  <main class="container">
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero-grid scroll-reveal">
+      <div class="hero-intro">
+        <h1 class="hero-heading">Welcome to Abhi's internet corner</h1>
+        <p class="hero-quote">
+          “Learning. Building things that solve real problems — hackathon builds, AI/ML projects, and everything I'm shipping.”
+        </p>
+
+        <!-- Postcard Box -->
+        <div class="postage-card" id="say-hi">
+          <div class="postage-stamp">
+            <span>POST<br>AGE</span>
+          </div>
+          <h3 class="postage-title">Say Hi to Abhi</h3>
+          <p class="postage-text">Ideas, hackathon teams, or a question about a build — drop your email and I'll write back.</p>
+          
+          <form class="postage-form" onsubmit="event.preventDefault(); window.location.href='mailto:rgguttedarabhi@gmail.com?subject=Hi%20Abhi';">
+            <input type="email" placeholder="your@email.com" required class="postage-input" />
+            <button type="submit" class="btn-submit-post">
+              <span>SAY<br>HI</span>
+            </button>
+          </form>
+        </div>
+
+        <!-- Social Bar -->
+        <div class="social-bar">
+          <a href="https://github.com/abhishekrg-dev" target="_blank" rel="noopener noreferrer" class="social-box" title="GitHub">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/abhishek-rg/" target="_blank" rel="noopener noreferrer" class="social-box" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+          </a>
+          <a href="https://contra.com/abhi_rgguttedar_apa55dkb/work?r=abhi_rgguttedar_apa55dkb" target="_blank" rel="noopener noreferrer" class="social-box" title="Contra">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+          </a>
+          <a href="https://x.com/ABHIRGGUTTEDAR" target="_blank" rel="noopener noreferrer" class="social-box" title="X / Twitter">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Featured Portrait Card (Exact 3:4 Aspect Ratio) -->
+      <div class="hero-portrait-card lift-card">
+        <div class="card-top-meta">
+          <span class="card-dots">○○○</span>
+          <span class="card-label">FEATURED</span>
+          <span class="card-number">[NO. 019]</span>
+        </div>
+        <div class="image-viewport portrait-frame">
+          <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/2e05f00d-6a4d-4ae3-b831-611c3f38c868/abhi-featured-portrait.png" alt="Abhishek RG" />
+        </div>
+        <div class="card-bottom-meta">
+          <span class="tag-outline">TECH</span>
+          <span class="author-tag">by ABHISHEK RG &nbsp;|&nbsp; STUDENT</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE TAG STRIP ================= -->
+    <div class="marquee-strip-wrapper">
+      <div class="marquee-strip">
+        <div class="marquee-content">
+          <span>Welcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>AIML Student</span>
+          <span>•</span>
+          <span>Welcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>Welcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>Welcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>Welcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>Welcome to Abhi's internet corner</span>
+          <span>•</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span>Wellcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>AIML STUDENT</span>
+          <span>•</span>
+          <span>HACKATHON</span>
+          <span>•</span>
+          <span>MICROSOFT AI FOUNDRY</span>
+          <span>•</span>
+          <span>Wellcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>Wellcome to Abhi's internet corner</span>
+          <span>•</span>
+          <span>BUILDING & SHIPPING</span>
+          <span>•</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= ACHIEVEMENTS & HACKATHONS ================= -->
+    <section class="section-container scroll-reveal" id="projects">
+      <div class="section-title-row">
+        <h2 class="section-heading">Some Project's  &amp; Hackathons</h2>
+        <a href="#projects" class="section-sub-link">VIEW ALL POSTS ↗</a>
+      </div>
+      <div class="rule-single"></div>
+
+      <div class="projects-grid">
+        
+        <!-- Echoes We Forgot -->
+        <article class="project-card lift-card">
+          <div class="card-top-meta">
+            <span class="card-dots">○○○</span>
+            <span class="card-number">[NO. 004]</span>
+          </div>
+          <div class="image-viewport">
+            <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/b95e3566-0751-4172-925f-b7c45357c778/project-echoes-ui.png" alt="Echoes We Forgot" loading="lazy" />
+          </div>
+          <div class="project-details">
+            <div class="action-links-row">
+              <span class="tag-outline">HACKATHON</span>
+              <div class="link-group">
+                <a href="https://echoes-we-forgot.netlify.app/" target="_blank" rel="noopener noreferrer" class="link-box">LIVE DEMO ↗</a>
+                <a href="https://contra.com/community/97sj9Vzv-explore-echoes-we-forgot-digital-museum?r=abhi-rgguttedar_apa55dkb&referralExperimentNid=DEFAULT_REFERRAL_PROGRAM" target="_blank" rel="noopener noreferrer" class="link-box">SUBMISSION ↗</a>
+              </div>
+            </div>
+            <h3 class="project-title"><span class="highlight-target">Echoes We Forgot</span></h3>
+          </div>
+        </article>
+
+        <!-- Agents League - Creative Apps -->
+        <article class="project-card lift-card">
+          <div class="card-top-meta">
+            <span class="card-dots">○○○</span>
+            <span class="card-number">[NO. 003]</span>
+          </div>
+          <div class="image-viewport">
+            <img src="https://rgabhishek.lovable.app/assets/project-agents-BaWbBHVW.jpg" alt="Agents League - Creative Apps" loading="lazy" />
+          </div>
+          <div class="project-details">
+            <div class="action-links-row">
+              <span class="tag-outline">AIML</span>
+              <div class="link-group">
+                <a href="https://globalai.community/badges/2774fc76-1afb-4945-a945-1dc8ce5cdd60" target="_blank" rel="noopener noreferrer" class="link-box">LIVE LINK ↗</a>
+              </div>
+            </div>
+            <h3 class="project-title"><span class="highlight-target">Agents League - Creative Apps</span></h3>
+          </div>
+        </article>
+
+        <!-- Rangoli Studio -->
+        <article class="project-card lift-card">
+          <div class="card-top-meta">
+            <span class="card-dots">○○○</span>
+            <span class="card-number">[NO. 002]</span>
+          </div>
+          <div class="image-viewport">
+            <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/3e6a1d77-8bd5-4f91-a802-73eeadf7cd26/project-rangoli-ui.png" alt="Rangoli Studio" loading="lazy" />
+          </div>
+          <div class="project-details">
+            <div class="action-links-row">
+              <span class="tag-outline">DESIGN</span>
+              <div class="link-group">
+                <a href="https://oculus-last-45120554.figma.site" target="_blank" rel="noopener noreferrer" class="link-box">LIVE DEMO ↗</a>
+                <a href="https://contra.com/community/uMYOWah8-create-traditional-rangoli-designs-with-rangoli" target="_blank" rel="noopener noreferrer" class="link-box">SUBMISSION ↗</a>
+              </div>
+            </div>
+            <h3 class="project-title"><span class="highlight-target">Rangoli Studio</span></h3>
+          </div>
+        </article>
+
+        <!-- SkillSwap -->
+        <article class="project-card lift-card">
+          <div class="card-top-meta">
+            <span class="card-dots">○○○</span>
+            <span class="card-number">[NO. 001]</span>
+          </div>
+          <div class="image-viewport">
+            <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/b52f8bb2-89e4-4e74-8af3-27ac094592d3/project-skillswap-ui.png" alt="SkillSwap" loading="lazy" />
+          </div>
+          <div class="project-details">
+            <div class="action-links-row">
+              <span class="tag-outline">HACKATHON</span>
+              <div class="link-group">
+                <a href="https://rgguttedarabhi-13110.bubbleapps.io/version-test" target="_blank" rel="noopener noreferrer" class="link-box">LIVE DEMO ↗</a>
+                <a href="https://contra.com/community/6rFs43lg-skill-swap-revolutionizing-freelancing-with-talent-exchange" target="_blank" rel="noopener noreferrer" class="link-box">SUBMISSION ↗</a>
+              </div>
+            </div>
+            <h3 class="project-title"><span class="highlight-target">SkillSwap</span></h3>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ================= FEATURED WORK ================= -->
+    <section class="section-container scroll-reveal">
+      <div class="section-title-row">
+        <h2 class="section-heading">Featured Work</h2>
+      </div>
+      <div class="rule-single"></div>
+
+      <div class="featured-banner lift-card">
+        <div class="image-viewport banner-img-wrap">
+          <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/a80fbf29-ca20-406c-b204-2478e17133e0/eye-keyboard-ui.png" alt="Eye Keyboard application" loading="lazy" />
+        </div>
+        <div class="banner-body">
+          <span class="tag-outline">PROJECT</span>
+          <h3 class="project-title banner-title"><span class="highlight-target">Eye Terminal</span></h3>
+          <p class="banner-text">An assistive eye-gaze communication interface for real-time interaction</p>
+          <div class="banner-buttons">
+            <a href="https://abhieye.netlify.app" target="_blank" rel="noopener noreferrer" class="btn-primary">LIVE DEMO ↗</a>
+            <a href="https://github.com/abhishekrg-dev/eye-terminal" target="_blank" rel="noopener noreferrer" class="btn-outline">GITHUB ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BADGES ================= -->
+    <section class="section-container scroll-reveal">
+      <div class="section-title-row">
+        <h2 class="section-heading">Badges</h2>
+      </div>
+      <div class="rule-single"></div>
+
+      <div class="badges-grid">
+        <a href="https://www.credly.com/badges/5c5b0b24-1052-45e2-897a-bacea5655ba9/linked_in?t=tff3zg" target="_blank" rel="noopener noreferrer" class="badge-card lift-card">
+          <div class="badge-icon"></div>
+          <div class="badge-info">
+            <p class="badge-title">Implement Cloud Storage &amp; Data Protection</p>
+            <span class="badge-link">VIEW ON CREDLY ↗</span>
+          </div>
+        </a>
+
+        <a href="https://www.credly.com/badges/44873636-933b-497f-b5c9-28ce7c36c0bb/linked_in?t=tfc6vp" target="_blank" rel="noopener noreferrer" class="badge-card lift-card">
+          <div class="badge-icon"></div>
+          <div class="badge-info">
+            <p class="badge-title">Build a Data Mesh with Dataplex</p>
+            <span class="badge-link">VIEW ON CREDLY ↗</span>
+          </div>
+        </a>
+
+        <a href="https://www.credly.com/badges/d693c1e5-1136-4e9c-8e02-b43f6f2c5fcc/linked_in?t=tet3ou" target="_blank" rel="noopener noreferrer" class="badge-card lift-card">
+          <div class="badge-icon"></div>
+          <div class="badge-info">
+            <p class="badge-title">Implement Cloud Security Fundamentals on GCP</p>
+            <span class="badge-link">VIEW ON CREDLY ↗</span>
+          </div>
+        </a>
+
+        <a href="https://www.credly.com/badges/281598f2-7fdb-426e-9bc2-58a71856753b/linked_in?t=teryhc" target="_blank" rel="noopener noreferrer" class="badge-card lift-card">
+          <div class="badge-icon"></div>
+          <div class="badge-info">
+            <p class="badge-title">The Basics of Google Cloud Compute</p>
+            <span class="badge-link">VIEW ON CREDLY ↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= TOOLS I WORK WITH (STREAMLINED FOR RECRUITERS) ================= -->
+    <section class="section-container scroll-reveal">
+      <div class="section-title-row">
+        <h2 class="section-heading">Tools I Work With</h2>
+      </div>
+      <div class="rule-single"></div>
+
+      <div class="tools-grid">
+        <div class="tool-box lift-card">
+          <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/ce13f36d-c68c-4ae8-9ee0-56a6c87ad362/microsoft-azure.png" alt="" class="tool-icon" />
+          <span>Microsoft Azure</span>
+        </div>
+        <div class="tool-box lift-card">
+          <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/145d339b-ec67-4814-942c-7a387eb8d154/microsoft-ai-foundry.png" alt="" class="tool-icon" />
+          <span>Microsoft AI Foundry</span>
+        </div>
+        <div class="tool-box lift-card">
+          <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/bb95cef4-d0e2-487e-8152-0c26816274e3/google-ai-studio.png" alt="" class="tool-icon" />
+          <span>Google AI Studio</span>
+        </div>
+        <div class="tool-box lift-card"><span>Claude</span></div>
+        <div class="tool-box lift-card"><span>Gemini</span></div>
+        <div class="tool-box lift-card"><span>Cursor</span></div>
+        <div class="tool-box lift-card"><span>GitHub Copilot / Codex</span></div>
+      </div>
+    </section>
+
+    <!-- ================= EDITORIAL STATEMENT ================= -->
+    <section class="section-container editorial-section scroll-reveal" id="about">
+      <div class="editorial-box">
+        <div class="image-viewport editorial-avatar">
+          <img src="https://rgabhishek.lovable.app/__l5e/assets-v1/ce7af284-ac26-414a-b0ae-5b0f68679957/abhi-sketch.png" alt="Ink illustration of Abhishek RG" loading="lazy" />
+        </div>
+        <p class="editorial-quote">
+          “This platform was started with a simple idea: to share stories that spark curiosity and inspire conversations. Here, that means documenting what I actually build — hackathon projects, AI/ML experiments, and the process of learning by shipping, not just studying.”
+        </p>
+        <div class="editorial-dots">○○○</div>
+        <h3 class="author-name">Abhishek RG</h3>
+        <p class="author-subtitle">A STUDENT AND A DESIGNER</p>
+      </div>
+    </section>
+
+    <!-- ================= RESUME ================= -->
+    <section class="section-container scroll-reveal" id="resume">
+      <div class="section-title-row">
+        <h2 class="section-heading">Resume</h2>
+      </div>
+      <div class="rule-single"></div>
+
+      <div class="resume-card lift-card">
+        <div class="card-top-meta">
+          <span class="card-dots">○○○</span>
+          <span class="card-number">[NO. 001]</span>
+        </div>
+        <div class="resume-content">
+          <span class="tag-outline">CURRICULUM VITAE</span>
+          <p class="resume-desc">Everything above, in one page.</p>
+          <div class="resume-actions">
+            <a href="https://rgabhishek.lovable.app/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary">VIEW RESUME ↗</a>
+            <a href="https://rgabhishek.lovable.app/resume.pdf" download="Abhishek-RG-Resume.pdf" class="btn-outline">DOWNLOAD PDF ↓</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= EDITORIAL DARK FOOTER ================= -->
+  <footer class="dark-footer">
+    <div class="container footer-content-grid">
+      <div class="footer-left">
+        <h2 class="footer-brand">ABHISHEK RG</h2>
+        <p class="footer-desc">Abhi's internet corner — builds, breakdowns and shipping notes.</p>
+      </div>
+
+      <div class="footer-newsletter">
+        <p class="newsletter-heading">connect here</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed!');">
+          <input type="email" placeholder="your@email.com" required class="newsletter-input" />
+          <button type="submit" class="newsletter-btn">Hi Abhi</button>
+        </form>
+        <a href="#" class="privacy-link">Privacy policy</a>
+      </div>
+
+      <div class="footer-links-col">
+        <p class="col-title">PAGES</p>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">Authors</a></li>
+          <li><a href="#projects">Categories</a></li>
+          <li><a href="#about">About / Contact</a></li>
+          <li><a href="mailto:rgguttedarabhi@gmail.com?subject=Hi%20Abhi">Hi Abhi</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <p class="col-title">SOCIALS</p>
+        <ul>
+          <li><a href="https://github.com/abhishekrg-dev" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/abhishek-rg/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="https://contra.com/abhi_rgguttedar_apa55dkb/work?r=abhi_rgguttedar_apa55dkb" target="_blank" rel="noopener noreferrer">Contra</a></li>
+          <li><a href="https://x.com/ABHIRGGUTTEDAR" target="_blank" rel="noopener noreferrer">Twitter / X</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-copyright-line">
+      <p>© 2026 Abhi's internet corner. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
